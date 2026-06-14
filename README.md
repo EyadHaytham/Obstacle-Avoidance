@@ -76,5 +76,5 @@ When executed, the pipeline instantiates a split visual interface for developer 
 ### Real-Time Detection Demonstration
 Below is an in-action example of the primary vision feed locking onto a target slightly to the right of the central axis, yielding a positive steering error calculation:
 
-![Live Obstacle Tracking Demo](<img width="637" height="480" alt="Screenshot 2026-06-14 042001" src="https://github.com/user-attachments/assets/b28b1570-4911-4e29-8d14-1260e0724a52" />
-)
+<img width="637" height="480" alt="Screenshot 2026-06-14 042001" src="https://github.com/user-attachments/assets/02cc2fb2-bea7-4b48-87b3-7519324dccf5" />
+
