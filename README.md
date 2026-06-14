@@ -78,3 +78,5 @@ Below is an in-action example of the primary vision feed locking onto a target s
 
 <img width="637" height="480" alt="Screenshot 2026-06-14 042001" src="https://github.com/user-attachments/assets/02cc2fb2-bea7-4b48-87b3-7519324dccf5" />
 
+<img width="168" height="399" alt="image" src="https://github.com/user-attachments/assets/bee755c9-a28d-490b-8eb2-0feffb654a2d" />
+
