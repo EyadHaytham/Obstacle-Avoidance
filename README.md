@@ -24,7 +24,7 @@ To solve this, the pipeline converts frames into the **HSV (Hue, Saturation, Val
 * **Hue ($H$):** Represents the pure color pigment wavelength, isolating "redness" entirely from how bright or dark it is.
 * **Saturation ($S$):** Measures the purity or intensity of the color. 
 
-By pushing our minimum Saturation threshold up to `150` ($np.array([0, 150, 50])$), the pipeline explicitly orders the camera to ignore white surfaces. Because blinding sun glare has zero saturation (pure white), it is stripped away, allowing the camera to lock exclusively onto the highly saturated red pigment of the structural obstacle.
+By pushing our minimum Saturation threshold up to `150` (np.array([0, 150, 50])), the pipeline explicitly orders the camera to ignore white surfaces. Because blinding sun glare has zero saturation (pure white), it is stripped away, allowing the camera to lock exclusively onto the highly saturated red pigment of the structural obstacle.
 
 ### B. Dual-Threshold Spectrum Wrapping
 In the cylindrical HSV color space, the color red is mathematically unique: it sits at the absolute beginning of the hue spectrum ($0^\circ$ to $10^\circ$) and loops continuously around to finish at the absolute end of the spectrum ($165^\circ$ to $180^\circ$).
